@@ -201,3 +201,43 @@ i.bi {
   align-items: center;
   margin-bottom: 10px;
 }
+
+/* footer */
+footer {
+  padding: 5vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+footer .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .col-md-6 {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-item,
+.footer-item:hover,
+.footer-item:active {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 40px;
+}
+
+.social-media-list .bi {
+  color: var(--tersier-color);
+  margin-right: 40px;
+}
