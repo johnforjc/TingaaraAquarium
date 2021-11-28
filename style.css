@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Secular+One&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #fff;
+  --tersier-color: #5498fe;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styling */
+
+nav {
+  width: 100%;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Secular One", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#logo-image {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+}
+
+.nav-content {
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .nav-content .nav-item .nav-link {
+  color: var(--secondary-color);
+}
+
+.dropdown {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown {
+    display: flex;
+  }
+
+  .nav-list {
+    display: none;
+  }
+}
