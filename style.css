@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Secular+One&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
 
 *,
 *::after,
@@ -103,4 +104,30 @@ nav .nav-content .nav-item .nav-link {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+/* About section styling */
+#about {
+  padding: 10vh 0;
+}
+
+h2.title-content {
+  font-size: 32px;
+  color: var(--tersier-color);
+}
+
+.info-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+i.bi {
+  width: 24px;
+  aspect-ratio: 1/1;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
 }
