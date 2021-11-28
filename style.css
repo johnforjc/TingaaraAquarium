@@ -16,9 +16,11 @@
   --tersier-color: #5498fe;
 }
 
-a {
+.read-link,
+.read-link:hover,
+.read-link:active {
   text-decoration: none;
-  color: inherit;
+  color: var(--secondary-color);
 }
 
 h1,
@@ -34,6 +36,10 @@ h6 {
   background-color: #eeeeee;
   width: 100%;
   height: 10px;
+}
+
+.paragraph-content {
+  color: var(--secondary-color);
 }
 
 /* Navbar Styling */
@@ -114,8 +120,9 @@ nav .nav-content .nav-item .nav-link {
 
 /* About section styling */
 #about,
-#why-us {
-  padding: 10vh 0;
+#why-us,
+#news {
+  padding: 10vh 0 5vh;
   height: fit-content;
 }
 
@@ -157,3 +164,40 @@ i.bi {
 }
 
 /* News Section Styling */
+#news {
+  background-color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+#news h2 {
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#news h3 {
+  color: var(--secondary-color);
+}
+
+.thumbnail-news.trending {
+  margin-bottom: 10px;
+}
+
+.thumbnail-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.thumbnail-img img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.mini-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
