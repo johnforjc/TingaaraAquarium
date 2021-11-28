@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -19,9 +20,21 @@ a {
   color: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Secular One", sans-serif;
+}
+
 /* Navbar Styling */
 
 nav {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -66,4 +79,28 @@ nav .nav-content .nav-item .nav-link {
   .nav-list {
     display: none;
   }
+}
+
+/* Hero Section Styling */
+.btn-cta {
+  background: var(--tersier-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+#hero-section {
+  background: url("./assets/background-hero.png"), linear-gradient(90deg, #000000a1, #00000000);
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+  color: var(--secondary-color);
+}
+
+.hero-content {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
