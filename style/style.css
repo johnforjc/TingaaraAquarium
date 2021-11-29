@@ -38,7 +38,8 @@ h6 {
   height: 10px;
 }
 
-.paragraph-content {
+#news .paragraph-content,
+footer .paragraph-content {
   color: var(--secondary-color);
 }
 
@@ -52,6 +53,7 @@ nav {
   background: var(--primary-color);
   color: var(--secondary-color);
   font-family: "Secular One", sans-serif;
+  z-index: 999;
 }
 
 .logo {
@@ -103,7 +105,7 @@ nav .nav-content .nav-item .nav-link {
 }
 
 #hero-section {
-  background: url("./assets/background-hero.png"), linear-gradient(90deg, #000000a1, #00000000);
+  background: url("./../assets/background-hero.png"), linear-gradient(90deg, #000000a1, #00000000);
   background-blend-mode: screen;
   background-size: cover;
   background-position: center bottom;
